@@ -1,0 +1,32 @@
+.my-pagination .active .page-link {
+	background: #dc3545;
+	border-color: #dc3545;
+	color: #ffffff;
+}
+
+.my-pagination .page-link {
+	color: #dc3545;
+}
+
+.book-image {
+	aspect-ratio: 4 / 4;
+	object-fit: cover;
+}
+
+.max-line-3 {
+	line-height: 18px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.teams-image {
+	aspect-ratio: 4 / 4;
+	object-fit: cover;
+}
